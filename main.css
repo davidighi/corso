@@ -1,0 +1,64 @@
+/************** GENERAL **************/
+
+* {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0
+}
+
+/************** HEADER **************/
+
+#header {
+    background: #0ace99;
+}
+
+h1 {
+    font-size: 36px; 
+    margin: 0;
+    text-align: center;
+    padding: 15px 0 0 0;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #ffff;
+}
+
+#nav {
+    background: #07684e;
+    text-align: center;
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 6px 8px;
+}
+
+#nav li a {
+    color: #ffff;
+}
+
+
+#nav li:hover{
+    background-color: #0ace99;
+}
+
+/************** CONTENT **************/
+
+#content {
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+#content h4 {
+    border-bottom: #07684e solid 3px;
+}
